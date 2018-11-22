@@ -1,0 +1,14 @@
+{
+    "name": "elm-fomling",
+    "version": "0.0.0",
+    "description": "Fomling med Elm",
+    "main": "index.js",
+    "scripts": {
+        "start": "parcel index.html"
+    },
+    "author": "Victor Nystad",
+    "license": "MIT",
+    "devDependencies": {
+        "parcel": "^1.10.3"
+    }
+}
