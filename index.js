@@ -4,8 +4,8 @@ if (module.hot) {
     })
 }
 
-import('./src/Main.elm')
-    .then(({ Elm }) => {
-        var node = document.querySelector('main')
-        Elm.Main.init({ node })
-    })
+(async () => {
+    var node = document.querySelector('main')
+    var module = await import('./src/Main.elm')
+    module.Elm.Main.init({ node })
+})()
